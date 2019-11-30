@@ -1,4 +1,4 @@
-/*
+
 // structure create  first time...
 
 #include<bits/stdc++.h>
@@ -20,9 +20,9 @@ int main()
     printf("Name : %s\n",one.name);
     return 0;
 }
-*/
 
-/*
+
+
 
 // first and last name create structure.....
 
@@ -52,10 +52,10 @@ int main()
     return 0;
 
 }
-*/
+
 
 // many student data input in for loop in structure....
-/*
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -89,7 +89,7 @@ int main()
 
     return 0;
 
-}*/
+}
 
 
 
