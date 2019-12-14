@@ -38,6 +38,59 @@ struct student {
         int id;
         struct nametype name;
 };
+/// I have used class struc of c++....
+#include<bits/stdc++.h>
+using namespace std;
+
+class shape{
+
+public:
+    void setwidth(int w){
+        width = w;
+    }
+    void setheight(int h){
+        height = h;
+    }
+
+protected:
+    int width;
+    int height;
+
+};
+
+class paintcost{
+
+public:
+    int getcost(int area){
+        return area* 70;
+    }
+};
+
+class rectangle : public shape,public paintcost
+{
+
+public:
+    int getarea(){
+        return (width*height);
+    }
+};
+
+int main (void)
+{
+    rectangle ract;
+    int area;
+
+    ract.setwidth(5);
+    ract.setheight(7);
+
+    area = ract.getarea();
+
+    cout<<"total area: "<<ract.getarea()<<endl;
+    cout<<"total pain cost: "<<ract.getcost(area)<<endl;
+    return 0;
+
+}
+
 
 int main()
 {
