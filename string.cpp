@@ -14,3 +14,23 @@ int main()
     cout<<endl;
     return 0;
 }
+
+/// character input from get and getline function use------
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    char leter, str[100];
+
+    /// character input from get and getline function use-----
+
+    cin.getline(str,100);
+    
+    leter = cin.get();
+    cout<<str<<endl;
+
+    cout<<leter<<"\n";
+    return 0;
+}
