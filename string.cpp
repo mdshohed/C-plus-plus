@@ -56,3 +56,29 @@ int main()
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
     return 0;
 }
+
+
+
+
+string input in c++ language..
+    
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    string str;
+    char str1[100];
+
+    cout<<"string input"<<endl;
+    getline(cin, str);
+
+    cout<<"character input"<<endl;
+    cin.get(str1, 100,'\n');
+
+
+    cout<<str<<endl;
+    cout<<str1<<endl;
+    return 0;
+}
+
