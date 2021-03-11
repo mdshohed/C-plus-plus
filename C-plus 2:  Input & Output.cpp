@@ -4,20 +4,20 @@ using namespace std;
 int main() {
 
     int n;
-    cout << "Integer value Input: ";
     cin >> n;
-    cout << "Output value: " << n << endl;
+    cout << n << endl;
 
     double d;
-    cout << "Double value Input: ";
     cin >> d;
-    cout <<fixed<<setprecision(5) << "Output value: " << d << endl;
+    cout <<fixed<<setprecision(5) << d << endl;
+
+    char ch;
+    cin >> ch;
+    cout << ch << endl;
 
     string s;
-    cout << "String input: ";
     cin >> s;
-    cout << "String output: " << s << endl;
-
+    cout << s << endl;
 
     int x;
     cin >> x;
