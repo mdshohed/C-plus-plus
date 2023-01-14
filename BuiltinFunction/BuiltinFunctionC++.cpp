@@ -6,8 +6,8 @@ int main() {
 	std::vector<int> a(v.size());
 	iota(a.begin(), a.end(),0);
 	sort(all(a),[&](int x, int y){
-        return v[x] < v[y];
-    });
+            	return v[x] < v[y];
+    	});
 	// present value print 0-index value, otherwise print nth value.thats means not present that value
 	int lower = lower_bound(v.begin(),v.end(), 3) - v.begin(); 
 	int upper = upper_bound(v.begin(),v.end(), 3) - v.begin();
